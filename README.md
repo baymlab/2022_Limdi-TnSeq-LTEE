@@ -18,7 +18,7 @@ This repository is organized as follows:
 
 This folder is empty: please download the data from https://doi.org/10.5281/zenodo.6547536. This data is generated using the scripts in Part 1: Data to Trajectories, and is required for final figure generation and analysis. 
 
-The data was uploaded to Zenodo as a single file ltee-tnseq-processed-data.zip. Please unzip this file, and move the Mutant_Trajectories and WGS_Data directories here. 
+The data was uploaded to Zenodo as a single file _ltee-tnseq-processed-data.zip_. Please unzip this file, and move the Mutant_Trajectories and WGS_Data directories here. 
 
 ### Metadata
 
