@@ -18,12 +18,15 @@ This repository is organized as follows:
 
 This folder is empty: please download the data from https://doi.org/10.5281/zenodo.6547536. This data is generated using the scripts in Part 1: Data to Trajectories, and is required for final figure generation and analysis. 
 
-The data was uploaded to Zenodo as a single file _ltee-tnseq-processed-data.zip_. Please unzip this file, and move the Mutant_Trajectories and WGS_Data directories here. 
+The data is contained in a single file _ltee-tnseq-processed-data.zip_. Please unzip this file, and move the Mutant_Trajectories and WGS_Data directories here. 
 
 ### Metadata
 
 This folder contains the relevant metadata for analysis, including gene names, locations, reference genomes, etc. 
-It also contains the RNAseq and RiboSeq data from Favate et al that we use in the following section.
+
+It contains the following datasets from previously published papers:
+- RNAseq an Riboseq for LTEE ancestors and evolved clones at 50,000 generations: from Favate et al. https://www.biorxiv.org/content/10.1101/2021.01.12.426406v1
+- TraDIS gene essentiality data: from Goodall et al. https://doi.org/10.1128/mBio.02096-17
 
 ### Analysis
 
@@ -35,5 +38,5 @@ This section contains all the scripts required to go from the .fastq sequencing 
 
 Other directories:
 
-- Plots_for_Paper: contains all the figure panels that I assemble and annotate to the get the final figures in Illustrator
-- Supplementary Tables: contain supporting information for the analyses done in the paper
+- Plots_for_Paper: Contains all the figure panels that I assemble and annotate to the get the final figures in Illustrator
+- Supplementary Tables: Contains supporting information for the analyses done in the paper
