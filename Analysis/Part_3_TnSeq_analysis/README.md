@@ -12,7 +12,9 @@ In this section, I do the final analysis of the TnSeq data: estimating fitness e
 - fitness_calculations.ipynb: here, I calculate the fitness effect of transposon insertion mutations by fitting a line to log(frequency) vs time. 
 - Essentiality threshold.ipynnb: here, I simulate the expected variability in the fitness estimates from TnSeq assays for essential genes and genes with significant growth deficit. The goal is to identify a threshold at which we can reliably distinguish between essentiality and fitness deficit.
 
-### Processed_data_for_plotting: all the intermediate data needed to generate the final plots is saved here such as fitness estimates, RNAseq expression levels, homolog pairs, etc.
+### Processed_data_for_plotting
+
+All the intermediate data needed to generate the final plots is saved here such as fitness estimates, RNAseq expression levels, homolog pairs, etc.
 
 ### final_analysis_plotting.ipynb
 
