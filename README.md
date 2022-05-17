@@ -12,7 +12,7 @@ In this project, we performed transposon sequencing of the ancestors and evolved
 
 ### Linked Datasets
 
-- Raw sequencing reads have been deposited in the NCBI BioProject database under accession number PRJNA814281. 
+- Raw sequencing reads have been deposited in the NCBI BioProject database under accession number PRJNA814281 (https://www.ncbi.nlm.nih.gov/sra/PRJNA814281)
 - Processed data are deposited on Zenodo (https://doi.org/10.5281/zenodo.6547536)
 
 ## Organization
