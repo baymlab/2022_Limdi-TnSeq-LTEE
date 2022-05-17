@@ -5,8 +5,7 @@
 Code corresponding to the following paper:
 
 Parallel changes in gene essentiality over 50,000 generations of evolution
-Anurag Limdi, Sian V. Owen, Cristina Herren, Richard E. Lenski and Michael Baym
-(add link to biorxiv here)
+Anurag Limdi, Sian V. Owen, Cristina Herren, Richard E. Lenski and Michael Baym (https://doi.org/10.1101/2022.05.17.492023)
 
 In this project, we performed transposon sequencing of the ancestors and evolved clones after 50,000 generations of evolution to identify how the distribution of fitness effects and gene essentiality changes over evolution. 
 
@@ -35,6 +34,8 @@ This section contains all the scripts required to go from the .fastq sequencing 
 - Part 1: Data to Trajectories. Here, I process the raw sequencing reads, map them to the reference genome, and compile a final table containing the number of reads mapping to each insertion at every timepoint in the fitness assay
 - Part 2: Whole Genome Sequencing Analysis. I analyse the raw WGS data using breseq and samtools, and identify large duplications and deletions
 - Part 3: TnSeq Analysis. I calculate fitness effects of insertion mutations and infer gene essentiality from mutant trajectories, and do additional exploratory analysis looking the interplay of gene essentiality with gene expression levels, and presence/absence of homologs. In this section, I also create the final figures and analyses that go into the manuscript.
+
+Note: each of these folders contains a text file outlining in more detail what each script/jupyter notebook does, plus any other relevant information.
 
 Other directories:
 
