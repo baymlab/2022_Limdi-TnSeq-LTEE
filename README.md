@@ -5,13 +5,8 @@
 Code corresponding to the following paper:
 
 Parallel changes in gene essentiality over 50,000 generations of evolution
-<<<<<<< HEAD
 
-Anurag Limdi, Sian V. Owen, Cristina Herren, Richard E. Lenski and Michael Baym
-(add link to biorxiv here)
-=======
 Anurag Limdi, Sian V. Owen, Cristina Herren, Richard E. Lenski and Michael Baym (https://doi.org/10.1101/2022.05.17.492023)
->>>>>>> 60ee7b4f896682a87f9848acfd78a2f3c20fb476
 
 In this project, we performed transposon sequencing of the ancestors and evolved clones after 50,000 generations of evolution to identify how the distribution of fitness effects and gene essentiality changes over evolution. 
 
