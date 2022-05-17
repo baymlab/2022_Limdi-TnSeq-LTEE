@@ -30,7 +30,7 @@ The data is contained in a single file _ltee-tnseq-processed-data.zip_. Please u
 This folder contains the relevant metadata for analysis, including gene names, locations, reference genomes, etc. 
 
 It contains the following datasets from previously published papers:
-- RNAseq an Riboseq for LTEE ancestors and evolved clones at 50,000 generations: from Favate et al. https://www.biorxiv.org/content/10.1101/2021.01.12.426406v1
+- RNAseq and Riboseq for LTEE ancestors and evolved clones at 50,000 generations: from Favate et al. https://www.biorxiv.org/content/10.1101/2021.01.12.426406v1
 - TraDIS gene essentiality data: from Goodall et al. https://doi.org/10.1128/mBio.02096-17
 
 ### Analysis
@@ -41,7 +41,7 @@ This section contains all the scripts required to go from the .fastq sequencing 
 - Part 2: Whole Genome Sequencing Analysis. I analyse the raw WGS data using breseq and samtools, and identify large duplications and deletions
 - Part 3: TnSeq Analysis. I calculate fitness effects of insertion mutations and infer gene essentiality from mutant trajectories, and do additional exploratory analysis looking the interplay of gene essentiality with gene expression levels, and presence/absence of homologs. In this section, I also create the final figures and analyses that go into the manuscript.
 
-Note: each of these folders contains a text file outlining in more detail what each script/jupyter notebook does, plus any other relevant information.
+Note: each of these folders contains a README.md outlining in more detail what each script/jupyter notebook does, plus any other relevant information.
 
 Other directories:
 
