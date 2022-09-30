@@ -2,6 +2,19 @@
 
 Breseq is a mutation calling pipeline developed by Jeff Barrick et al, specifically designed for microbial genomes. I used this to call mutations on the WGS data we collected from the clones used for transposon sequencing.
 
+### UPDATE: Snakemake pipeline addition
+
+I have created a Snakemake pipeline for completing Steps 1 to 3 as described below. 
+
+Things to note:
+- Install snakemake (instructions [here](https://snakemake.readthedocs.io/en/stable/getting_started/installation.html))
+- You'll need to download the WGS fastq files (from SRA) into a folder called data
+- Run the pipeline with this command (which you may need to modify slightly): snakemake -p --snakefile Snakefile --cores 4 --use-conda --conda-frontend conda 
+- The pipeline will merge lane 3 and lane 4 files, run bowtie on the fastq files, and samtools to get sequencing depth per site
+- The output file names are slightly different right now (for e.g. instead of REL606, the filenames are AL_WGS_REL606_S145). I will be fixing this in a future iteration.
+
+
+
 ### Step 1: Submit breseq jobs for each evolved population
 
 In directory with all the wgs fastq files, make directories corresponding to the names of every clone:
